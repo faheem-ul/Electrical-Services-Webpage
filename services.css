@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+}
+.main {
+    /* margin-top: 0px; */
+    width: 75%;
+    /* border: 1px solid red; */
+    margin-left: 170px;
+}
+
+.navigation {
+
+    padding-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navtags  a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-right: 50px;
+}
+
+.icon {
+   
+    color: #4B208C;
+    font-size:xx-large;
+    /* size-adjust: 100px; */
+    /* word-spacing: 10px; */
+   
+}
+
+h5{
+    display: inline;
+}
+
+.navtags a:hover{
+
+    background-color: #4B208C;
+    color: white;
+    border-radius: 10px;
+}
+
+.navsec{
+    background-color: bisque;
+}
+
+.sec-heading {
+    text-align: center;
+}
+
+
+#servicesicon{
+    
+    padding: 25px;
+}
+.primarydiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 70px;    
+}
+
+
+.sec2-div1 , .sec2-div2 , .sec2-div3 , .sec2-div4 , .sec2-div5 {
+    
+    flex-basis: 200px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.image {
+    justify-content: center;
+    
+    width: 270px;
+    height: 160px;
+    
+
+}
+
+
+.maindivsec2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 35px 40px;  
+
+}
+
+#sec2btn{
+    margin-top: 10px;
+    margin-left: 525px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #4B208C;
+}
+
+.footericons {
+
+    font-size:xx-large;
+    padding: 10px;
+    
+}
+
+.locationflex, .phoneflex, .emailflex {
+    display: flex;
+    color: white;
+    
+}
+
+.upperflex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.lastform input{
+    padding: 10px;
+    width: 500px;
+    margin-left: 100px;
+}
+.sec-6{
+    padding: 10px;
+    background-color: #4B208C;
+}
+
+.lastbtn {
+    padding: 10px;
+    width: 160px;
+    background-color: #4b208c;
+    color: white;
+}
+
+.socialicons {
+
+    font-size:xx-large;
+    padding-bottom: 60px;
+    color: white;
+
+}
+
+.socialiconflex {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+#footericon {
+    padding-top: 18px;
+}
